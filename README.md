@@ -1,7 +1,7 @@
 # DeepRecurrent Neural Networks as Random Names Generators
 
 ## Authors
-* Alejandro Molero Casanova - []()  
+* Alejandro Molero Casanova - [94.molero.a@gmail.com]()  
 * Daniel Salgado Rojo   - [daniel.salgado.rojo@gmail.com]()  
 
 
