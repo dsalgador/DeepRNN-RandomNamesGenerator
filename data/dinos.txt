@@ -23,7 +23,8 @@ Aeolosaurus
 Aepisaurus
 Aepyornithomimus
 Aerosteon
-AetonyxAfromimus
+Aetonyx
+Afromimus
 Afrovenator
 Agathaumas
 Aggiosaurus
