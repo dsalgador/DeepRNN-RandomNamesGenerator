@@ -7,10 +7,14 @@ def softmax(x):
 def smooth(loss, cur_loss):
     return loss * 0.999 + cur_loss * 0.001
 
-def print_sample(sample_ix, ix_to_char):
+def print_sample(sample_ix, ix_to_char, retrn = False):
     txt = ''.join(ix_to_char[ix] for ix in sample_ix)
     txt = txt[0].upper() + txt[1:]  # capitalize first character 
-    print ('%s' % (txt, ), end='')
+    
+    if not retrn: 
+        print ('%s' % (txt, ), end='')    
+    else:
+        return '%s' % (txt)
 
 def get_initial_loss(vocab_size, seq_length):
     return -np.log(1.0/vocab_size)*seq_length
